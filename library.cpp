@@ -238,6 +238,7 @@ void chonMode(int &mode){
              << "8. Chỉnh sửa thông tin cá nhân" << endl
              << "\n0. Kết thúc" << endl << endl;
         cout << "Nhập chức năng (0-8) bạn muốn thực hiện: ";
+        // Đoạn này khi in ra 3,4 cách nhau 1 dòng trống, 6,7 cách nhau 1 dòng trống, 8,0 cách nhau một dòng trống. 
         cin >> mode;
     } while (mode > 8 || mode < 0);
 
@@ -248,6 +249,9 @@ void chonMode(int &mode){
             bool no_valid = 1;
             
             // Check if the ID already exists
+            /* Hỏi id sách trước khi hỏi tên, vậy nếu tên sách thêm vào trùng thì sao? 
+                Vậy mỗi đầu sách nên thêm thông tin về số lượng, hỏi tên sách trước, nếu tên sách trùng thì cộng vào số lượng. 
+                Không trùng thì "Nhập vào id cho sách mới:" và không được nhập trùng id với sách đã có */
             while (no_valid) {
                 sach_them->khoiTaoSach();
                 no_valid = 0;
