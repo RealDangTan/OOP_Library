@@ -403,7 +403,7 @@ int main(){
     catch(const exception& e) {}
     // Đọc user database
     fstream user_db_read("@user_database.txt", ios::in);
-    // try{
+    try{
         getline(user_db_read, read_line);
         while (getline(user_db_read, read_line)) {
             string x, y, z, t;
@@ -427,9 +427,9 @@ int main(){
 
             users_db.push_back(DOCGIA(x, y, z, t, g));
         }
-    //     throw runtime_error("Có lỗi xảy ra"); // đúng ra là cái này sẽ không chạy dù bất cứ giá nào
-    // }
-    // catch(const exception& e){}
+        throw runtime_error("Có lỗi xảy ra"); // đúng ra là cái này sẽ không chạy dù bất cứ giá nào
+    }
+    catch(const exception& e){}
     // ---------------------------------------------------------------------
 
 
