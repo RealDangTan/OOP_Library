@@ -263,19 +263,25 @@ void chonMode(int &mode){
                 if (!no_valid) {
                     thu_vien.push_back(sach_them);
                     sach_them->addSachtoDB();
+                    cout << "\nĐã thành công thêm sách:\n"; sach_them->inSach();
                 }
             }
             break;
         }
 
         case 2: {
-            string find_id;
+            string find_id; SACH* found_book;
+            bool valid2 =0;
             cout << "Nhập ID sách: "; cin >> find_id;
             for(auto a: thu_vien){
                 if(find_id == a->timSach(find_id)){
+                    cout << "Tìm sách thành công: \n";
                     a->inSach();
+                    found_book = a;
+                    valid2 =1;
                 }
             } 
+            if(valid2){} else cout<<"Tìm sách thất bại (sai ID hoặc sách không tồn tại !)"<<endl;
             break;
         }
 
@@ -405,7 +411,7 @@ int main(){
     catch(const exception& e) {}
     // Đọc user database
     fstream user_db_read("@user_database.txt", ios::in);
-    // try{
+    try{
         getline(user_db_read, read_line);
         while (getline(user_db_read, read_line)) {
             string x, y, z, t;
@@ -428,9 +434,9 @@ int main(){
 
             users_db.push_back(DOCGIA(x, y, z, t, g));
         }
-    //     throw runtime_error("Có lỗi xảy ra"); // đúng ra là cái này sẽ không chạy dù bất cứ giá nào
-    // }
-    // catch(const exception& e){}
+        throw runtime_error("Có lỗi xảy ra"); // đúng ra là cái này sẽ không chạy dù bất cứ giá nào
+    }
+    catch(const exception& e){}
     // ---------------------------------------------------------------------
 
 

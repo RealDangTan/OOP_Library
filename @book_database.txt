@@ -104,3 +104,13 @@ Tác giả:    Mary Shelley
 Tình trạng: Đã mượn
 Ngày mượn: 0/1/1900
 Ngày trả: 15/11/2024
+
+ID:         237482
+Sách:       Giao trinh C++ cho mau giao
+Tác giả:    Pham Minh Hoan
+Tình trạng: Có thể mượn
+
+ID:         324976
+Sách:       Giao trinh C++ cho mau giao
+Tác giả:    Pham Minh Hoan
+Tình trạng: Có thể mượn
