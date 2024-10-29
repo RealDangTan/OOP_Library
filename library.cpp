@@ -70,6 +70,8 @@ class SACH {
                 return find_id;
             } else return "none";
         }
+
+        ~SACH(){};
 };
 
 vector<SACH*> thu_vien; // Change to vector of pointers to SACH
@@ -420,7 +422,6 @@ int main(){
                 getline(user_db_read, read_line);
                 while (read_line[0] == '-') {
                     g.push_back(read_line.substr(8));
-                    cout<< read_line.substr(8) <<endl;
                     getline(user_db_read, read_line);
                 }
             }
