@@ -11,9 +11,6 @@ time_t current_time = time(0);
 tm* time_now = localtime(&current_time);  
 // Lớp sách thực hiện chức năng làm khung và các chức năng nhập in tìm sách cơ bản
 class SACH {
-    protected:
-        
-        
     public:
         string id_sach;
         string tieu_de;
@@ -74,7 +71,7 @@ class SACH {
         ~SACH(){};
 };
 
-vector<SACH*> thu_vien; // Change to vector of pointers to SACH
+vector<SACH*> thu_vien;
 
 // Flow cho reader: đăng nhập chỉ bằng SĐT, khỏi tạo ngay khi user chạy code
 class DOCGIA{
@@ -87,7 +84,7 @@ class DOCGIA{
         // lười viết hàm truy cập biến nên cho truy cập public luôn
         string ho_ten;
         string sdt;
-        vector<SACH*> sach_muon; // Change to vector of pointers to SACH
+        vector<SACH*> sach_muon;
 
         DOCGIA(){}
         DOCGIA (string x, string y, string z, string t, vector<string> g){
@@ -248,8 +245,7 @@ void chonMode(int &mode){
         case 1: {
             SACH* sach_them = new SACH();
             bool no_valid = 1;
-            
-            // Check if the ID already exists
+
             while (no_valid) {
                 sach_them->khoiTaoSach();
                 no_valid = 0;
@@ -379,7 +375,6 @@ int main(){
             string x, y, z, t;
             tm ngay_muon = {}, ngay_tra = {};
             bool cho_muon = true;       
-            // Read the book details
             getline(book_db_read, read_line); x = read_line.substr(12);
             getline(book_db_read, read_line); y = read_line.substr(13);
             getline(book_db_read, read_line); z = read_line.substr(15);
@@ -389,15 +384,15 @@ int main(){
                 cho_muon = true;
             } else {
                 cho_muon = false;
-                getline(book_db_read, read_line); // Ngày mượn
+                getline(book_db_read, read_line); 
                 sscanf(read_line.c_str(), "Ngày mượn: %d/%d/%d", &ngay_muon.tm_mday, &ngay_muon.tm_mon, &ngay_muon.tm_year);
-                ngay_muon.tm_mon -= 1; // Adjust month
-                ngay_muon.tm_year -= 1900; // Adjust year
+                ngay_muon.tm_mon -= 1; 
+                ngay_muon.tm_year -= 1900; 
 
-                getline(book_db_read, read_line); // Ngày trả
+                getline(book_db_read, read_line); 
                 sscanf(read_line.c_str(), "Ngày trả: %d/%d/%d", &ngay_tra.tm_mday, &ngay_tra.tm_mon, &ngay_tra.tm_year);
-                ngay_tra.tm_mon -= 1; // Adjust month
-                ngay_tra.tm_year -= 1900; // Adjust year
+                ngay_tra.tm_mon -= 1; 
+                ngay_tra.tm_year -= 1900; 
             }
 
             SACH* sach = new SACH(x, y, z, t);
