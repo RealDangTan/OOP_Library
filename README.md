@@ -1,9 +1,14 @@
 # OOP_Library
 ## Thành viên
 
-| Họ và tên   | Mã sinh viên |
-| ----------- | ------------ |
-| Lê Đăng Tấn | 11236199     |
+| Họ và tên          | Mã sinh viên |
+| ------------------ | ------------ |
+| Lê Đăng Tấn        | 11236199     |
+| Nguyễn Ngọc Hà     | 11236099     |
+| Nguyễn Vũ Anh Tuấn | 11216081     |
+| Nguyễn Tuấn Nam    | 11214133     |
+| Nguyễn Hồng Phi    | 11236179     |
+| Nguyễn Quang Sơn   | 11236195     |
 
 ## Mô tả
 Đề bài nhóm B là sử dụng các kiến thức lập trình hướng đối tượng để mô phỏng lại hệ thống thư viện với các chức năng cơ bản:
@@ -62,8 +67,11 @@ Nhóm sử dụng 100% ngôn ngữ C++ để thiết kế và thực hiện bài
 - Các kiến thức nâng cao trong OOP vẫn chưa được vận dụng trong bài tập nhóm như biến, hàm tĩnh, hàm/lớp ảo, template, ...
 ## Đánh giá thành viên 
 
-| Họ và tên      | Mã sinh viên | Công việc       | Điểm |
-| -------------- | ------------ | --------------- | ---- |
-| Lê Đăng Tấn    | 11236199     | Làm hết mọi thứ | A+++ |
-| Nguyễn Ngọc Hà |              | Làm slide       |      |
- 
+| Họ và tên          | Mã sinh viên | Đánh giá |
+| ------------------ | ------------ | -------- |
+| Lê Đăng Tấn        | 11236199     |          |
+| Nguyễn Ngọc Hà     | 11236099     |          |
+| Nguyễn Vũ Anh Tuấn | 11216081     |          |
+| Nguyễn Tuấn Nam    | 11214133     |          |
+| Nguyễn Hồng Phi    | 11236179     |          |
+| Nguyễn Quang Sơn   | 11236195     |          |
