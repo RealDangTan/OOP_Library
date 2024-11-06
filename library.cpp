@@ -105,6 +105,7 @@ class DOCGIA{
         // thêm lưu user vao database
         void khoiTaoUser(){
             cout << endl << "Đăng kí tài khoản mới: " << endl;
+            cout << "Nhập SĐT của bạn: "; getline(cin, sdt); 
             cout << "Chúng tôi gọi bạn là: "; getline(cin, ho_ten); 
             cout << "Nhập địa chỉ của bạn: "; getline(cin, dia_chi); 
             cout << "Nhập email của bạn: "; getline(cin, email);
@@ -217,7 +218,6 @@ void logIn(){
     }   
     cout << "\nSĐT chưa tồn tại trên hệ thống, vui lòng đăng kí.\n";
     current_user.khoiTaoUser();
-    current_user.sdt = find_sdt;
     current_user.addUserToDB(); 
     users_db.push_back(current_user);
 }
@@ -355,6 +355,7 @@ void chonMode(int &mode){
         }
 
         case 8:{
+
             current_user.khoiTaoUser();
             break;
         }
