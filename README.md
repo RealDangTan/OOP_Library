@@ -69,9 +69,9 @@ Nhóm sử dụng 100% ngôn ngữ C++ để thiết kế và thực hiện bài
 
 | Họ và tên          | Mã sinh viên | Đánh giá |
 | ------------------ | ------------ | -------- |
-| Lê Đăng Tấn        | 11236199     |          |
-| Nguyễn Ngọc Hà     | 11236099     |          |
-| Nguyễn Vũ Anh Tuấn | 11216081     |          |
-| Nguyễn Tuấn Nam    | 11214133     |          |
-| Nguyễn Hồng Phi    | 11236179     |          |
-| Nguyễn Quang Sơn   | 11236195     |          |
+| Lê Đăng Tấn        | 11236199     | Xử lý phần lớp MUONTRA, quản lý dữ liệu         |
+| Nguyễn Ngọc Hà     | 11236099     | Làm báo cáo, tổng hợp kiến thức         |
+| Nguyễn Vũ Anh Tuấn | 11216081     | Làm slide báo cáo, tổng hợp kiến thức lên slide          |
+| Nguyễn Tuấn Nam    | 11214133     | Làm slide         |
+| Nguyễn Hồng Phi    | 11236179     | Xử lý phần lớp độc giả, thuyết trình         |
+| Nguyễn Quang Sơn   | 11236195     | Xử lý phần lớp Sách, thuyết trình          |
