@@ -47,12 +47,16 @@ Tình trạng: Có thể mượn
 ID:         452866
 Sách:       The Odyssey
 Tác giả:    Homer
-Tình trạng: Có thể mượn
+Tình trạng: Đã mượn
+Ngày mượn: 7/12/2024
+Ngày trả: 8/12/2024
 
 ID:         452867
 Sách:       Brave New World
 Tác giả:    Aldous Huxley
-Tình trạng: Có thể mượn
+Tình trạng: Đã mượn
+Ngày mượn: 0/1/1900
+Ngày trả: 27/10/2025
 
 ID:         452868
 Sách:       Crime and Punishment
@@ -86,7 +90,7 @@ Sách:       The Brothers Karamazov
 Tác giả:    Fyodor Dostoevsky
 Tình trạng: Đã mượn
 Ngày mượn: 0/1/1900
-Ngày trả: 1/1/2025
+Ngày trả: 1/11/2024
 
 ID:         452874
 Sách:       Anna Karenina
@@ -96,21 +100,32 @@ Tình trạng: Có thể mượn
 ID:         452875
 Sách:       Wuthering Heights
 Tác giả:    Emily Brontë
-Tình trạng: Có thể mượn
+Tình trạng: Đã mượn
+Ngày mượn: 9/9/2025
+Ngày trả: 1/1/2026
 
 ID:         452876
 Sách:       Frankenstein
 Tác giả:    Mary Shelley
 Tình trạng: Đã mượn
 Ngày mượn: 0/1/1900
-Ngày trả: 15/11/2024
+Ngày trả: 4/11/2024
 
 ID:         237482
 Sách:       Giao trinh C++ cho mau giao
 Tác giả:    Pham Minh Hoan
-Tình trạng: Có thể mượn
+Tình trạng: Đã mượn
+Ngày mượn: 0/1/1900
+Ngày trả: 11/11/2024
 
 ID:         324976
 Sách:       Giao trinh C++ cho mau giao
 Tác giả:    Pham Minh Hoan
 Tình trạng: Có thể mượn
+
+ID:         347939
+Sách:       300 bai code thieu nhi
+Tác giả:    Pham Minh Hoan
+Tình trạng: Đã mượn
+Ngày mượn: 0/1/1900
+Ngày trả: 1/1/2025

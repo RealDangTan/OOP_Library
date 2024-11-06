@@ -105,7 +105,7 @@ class DOCGIA{
         // thêm lưu user vao database
         void khoiTaoUser(){
             cout << endl << "Đăng kí tài khoản mới: " << endl;
-            cout << "Chúng tôi gọi bạn là: ";cin.ignore(); getline(cin, ho_ten); 
+            cout << "Chúng tôi gọi bạn là: "; getline(cin, ho_ten); 
             cout << "Nhập địa chỉ của bạn: "; getline(cin, dia_chi); 
             cout << "Nhập email của bạn: "; getline(cin, email);
         }

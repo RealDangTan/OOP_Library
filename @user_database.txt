@@ -8,8 +8,31 @@ Sách đang mượn:
 -   ID: 452873
 -   ID: 452870
 
-Họ và tên: an Dang
+Họ và tên: Tan Dang
 SĐT:       0816886255
 Địa chỉ:   Gia Lam, Ha Noi
 Email:     tan@gmail.com
 Sách đang mượn: 
+
+Họ và tên: Nguyen Quang Son
+SĐT:       0898989123
+Địa chỉ:   Nam Dinh
+Email:     quangson0504@gmail.com
+Sách đang mượn: 
+-   ID: 237482
+-   ID: 452867
+
+Họ và tên: Nguyen Hong Phi
+SĐT:       090390123
+Địa chỉ:   Ha Noi
+Email:     hongphi2838@gmail.com
+Sách đang mượn: 
+-   ID: 347939
+
+Họ và tên: Nguyen Ngoc Ha
+SĐT:       2983791722
+Địa chỉ:   Ba Vi
+Email:     nnha.b5tneu@gmail.com
+Sách đang mượn: 
+-   ID: 452875
+-   ID: 452866
